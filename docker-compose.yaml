@@ -1,8 +1,8 @@
-version: '3'
+version: '3.5'
 services:
   myapp:
-    image: thanathipat/node-express
+    image: nwfenrir/58364296-resume
     ports:
-      - "3000:3000"
+      - "8018:3000"
     command: "npm start"
 
